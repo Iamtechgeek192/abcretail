@@ -35,8 +35,8 @@ mvn clean package
 Then run the jar
 
 java -jar target/abcretail-0.0.1-SNAPSHOT.jar
-````````
-Application will start running on port 8082
+
+Application will start running on port 8080
 
 Calling abcretail api services
 Performing GET request on http://localhost:8080/product/13860428 It will return json object with product information and pricing information.
