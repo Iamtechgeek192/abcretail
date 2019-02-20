@@ -78,8 +78,6 @@ public class ProductDetailsServiceImpl implements ProductDetailsService {
         return prodPrice;
     }
 
-
-    @CachePut(value = "productPriceCache", key = "#id")
     public ProductPrice updateProductPrice(int id, ProductDetails newProduct) throws MongoException {
         log.info("in updateProductPrice");
         ProductPrice newProductPrice = newProduct.getProductPrice();

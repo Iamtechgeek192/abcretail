@@ -47,4 +47,6 @@ public class ProductDetailsController {
 		log.info(" updated putProductDetails :"+updatedProductDetails);
 		return updatedProductDetails;
 	}
+
+
 }
