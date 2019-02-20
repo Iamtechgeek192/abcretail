@@ -1,7 +1,9 @@
-abcretail
-abcretail Restful service
+**abcretail**
+
+**abcretail Restful service**
 
 Technologies
+
 JDK 1.8.0
 
 Mongo 4.0.6
@@ -33,13 +35,13 @@ mvn clean package
 Then run the jar
 
 java -jar target/abcretail-0.0.1-SNAPSHOT.jar
-
+````````
 Application will start running on port 8082
 
 Calling abcretail api services
-Performing GET request on http://localhost:8082/product/13860428 It will return json object with product information and pricing information.
+Performing GET request on http://localhost:8080/product/13860428 It will return json object with product information and pricing information.
 
-GET http://localhost:8082/product/13860428
+GET http://localhost:8080/product/13860428
 
 Response:-
 
@@ -47,7 +49,7 @@ Response:-
 
 To perform PUT operation, send JSON object with updated price in request body, it will return JSON object with updated pricing information.
 
-PUT http://localhost:8082/product/13860428
+PUT http://localhost:8080/product/13860428
 
 Request Body:-
 
