@@ -97,6 +97,4 @@ public class ProductDetailsServiceImpl implements ProductDetailsService {
         log.debug("newProductPrice : " + newProductPrice);
         return newProductPrice;
     }
-
-
 }
